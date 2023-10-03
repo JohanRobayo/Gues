@@ -1,0 +1,276 @@
+body.login{
+    
+    background-image: url("imagenes/back_auto_x2.jpg");
+    color: #e6e6e6;
+    
+}
+footer {
+    background-color: #000; /* Fondo negro */
+    color: #fff; /* Letras blancas */
+    text-align: center; /* Alinea el texto al centro */
+    padding: 80px;
+    width: 91.9%;
+}
+.h1{
+    font-family: 'Lato', sans-serif;
+    font-size: 50px;
+}
+.h2{
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.bot{
+    color: #a1a09e;
+    border-radius: 10px;
+    height: 30px;
+    width: 250px;
+    background: transparent;
+    border: 1px solid #fff; /* Cambié el valor de border-color a #fff para que sea blanco */
+    transition: background-color 0.3s, border-color 0.3s;
+    position: absolute;
+    left: 42%;
+}
+.cont{
+    box-shadow: 0 0 10px 10px rgba(156, 158, 155, 0.5);
+    border-radius: 20px;
+    backdrop-filter: blur (0.4 rem);
+    /*background: #0000002f;*/
+    background-color: rgba(24, 22, 22, 0.744);
+    width: 400px;
+    border: 2px solid #fafafa00;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 15%;
+    margin-bottom: 100px;
+}
+.bot:hover{
+    color: black;
+    background-color: rgb(203, 204, 205);
+}
+
+.con{
+    color: rgb(211, 204, 204);
+    font-size: 20px;
+    height: 30px;
+    outline: none;
+    background: none;
+    border: none; /* Elimina los bordes */
+    border-bottom: 1px solid rgb(255, 255, 255);
+    width: 355px;
+}
+.ol{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #e6e6e6;
+    margin: 30px;
+    float: right;
+}
+
+
+
+.registro{
+    color: white;
+    background-color: rgb(32, 30, 30);
+    background-image: url("imagenes/back_auto_x2.jpg");
+    
+}
+.re{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #e6e6e6;
+    position: absolute;
+    float: left;
+    margin-top: 42px;
+}
+.conte{
+    border-radius: 20px;
+    backdrop-filter: blur (0.4 rem);
+    /*background: #0000002f;*/
+    background-color: rgba(24, 22, 22, 0.441);
+    height: 1000px;
+    width: 800px;
+    align-items: center;
+    align-content: center;
+    margin: 0 auto;
+    margin-top: 54px;
+    box-shadow: 0 0 10px 10px rgba(87, 88, 86, 0.5);
+}
+.regiz{
+    padding-top:100px;
+    align-content: center;
+    align-items: center;
+    position: absolute;
+    left: 40%;
+
+}
+.regde{
+    margin-top: 100px;
+    left: 60%;
+    position: absolute;
+    float: right;
+}
+.r{
+    font-family: 'Lato', sans-serif;
+    margin-top: 40px;
+    position: absolute;
+    left: 40%;
+    font-size: 50px;
+}
+.ri{
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.inputre{
+    font-size: 15px;
+    color: white;
+    border-radius: 5px;
+    height: 30px;
+    width: 400px;
+    caret-color: white;
+    background: transparent;
+    border: 1px solid #ffffff; /* Cambié el valor de border-color a #fff para que sea blanco */
+}
+.inputre-em{
+    font-size: 17px;
+    color: white;
+    border-radius: 5px;
+    height: 30px;
+    width: 400px;
+    caret-color: white;
+    background: transparent;
+    border: 1px solid #ffffff; /* Cambié el valor de border-color a #fff para que sea blanco */
+}
+.inputre-tel{
+    font-size: 17px;
+    color: white;
+    border-radius: 5px;
+    height: 30px;
+    width: 180px;
+    caret-color: white;
+    background: transparent;
+    border: 1px solid #ffffff; /* Cambié el valor de border-color a #fff para que sea blanco */
+
+}
+.inputre-id{
+    font-size: 17px;
+    color: white;
+    border-radius: 5px;
+    height: 30px;
+    width: 70px;
+    caret-color: white;
+    background: transparent;
+    border: 1px solid #ffffff; /* Cambié el valor de border-color a #fff para que sea blanco */
+}
+.inputre-na{
+    font-size: 17px;
+    color: white;
+    border-radius: 5px;
+    height: 30px;
+    width: 130px;
+    caret-color: white;
+    background: transparent;
+    border: 1px solid #ffffff; /* Cambié el valor de border-color a #fff para que sea blanco */
+}
+.inicio{
+    height: 30px;
+    color: white;
+    border-radius: 5px;
+    backdrop-filter: blur (0.4 rem);
+    /*background: #0000002f;*/
+    background-color: rgba(24, 22, 22, 0.744);
+    width: 200px;
+    border: 2px solid #ffffff;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    font-size: 20px;
+}
+.inicio:hover{
+    color: black;
+    background-color: rgb(203, 204, 205);
+}
+.option{
+    color: black;
+}
+
+
+.cont-ol{
+    position: absolute;
+    left: 38%;
+    margin-top: 15%;
+    background-color: rgba(70, 68, 68, 0.345);
+    width: 500px;
+    height: 350px;
+    box-shadow: 0 0 10px 10px rgba(74, 75, 72, 0.5);
+}
+.olvido{
+    position: absolute;
+    left: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.input-ol{
+    height: 25px;
+    width: 300px;
+    border-radius: 10px;
+}
+.Olvido-con{
+    color: rgb(238, 236, 236);
+    background-image: url(imagenes/back_auto_x2.jpg);
+}
+.bot-ol{
+    color: #dbdbdb;
+    border-radius: 10px;
+    height: 30px;
+    width: 250px;
+    background: transparent;
+    border: 1px solid #fff; /* Cambié el valor de border-color a #fff para que sea blanco */
+    transition: background-color 0.3s, border-color 0.3s;
+    position: absolute;
+    left: 43%;
+}
+.bot-ol:hover{
+    color: black;
+    background-color: rgb(203, 204, 205);
+}
+.bot-olv{
+    color: #dbdbdb;
+    border-radius: 10px;
+    height: 30px;
+    width: 250px;
+    background: transparent;
+    border: 1px solid #fff; /* Cambié el valor de border-color a #fff para que sea blanco */
+    transition: background-color 0.3s, border-color 0.3s;
+    position: absolute;
+    left: 15%;
+}
+
+.bot-olv:hover{
+    color: black;
+    background-color: rgb(203, 204, 205);
+}
+.ti-ol{
+    font-weight: normal;
+    font-size: 20px;
+}
+.rec-cont{
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0 0 10px 10px rgba(156, 158, 155, 0.5);
+    border-radius: 20px;
+    backdrop-filter: blur (0.4 rem);
+    /*background: #0000002f;*/
+    background-color: rgba(24, 22, 22, 0.744);
+    width: 400px;
+    border: 2px solid #fafafa00;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 15%;
+    height: 350px;
+}
